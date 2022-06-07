@@ -10,9 +10,7 @@ Case para a prova semestral do 2TDS - 1° Semestre de 2022
 
 **Ano:** 2° ano, 2022
 
-## Objetivo / descrição do Projeto
-
-### Questões
+## Questões
 1 - Crie um projeto maven com o nome gco-ead
 
 2 – Configure o contexto de persistência no persistence.xml
@@ -50,21 +48,19 @@ novos métodos nos DAOs e Services, caso necessário:
 9.2 – Cadastre duas Portarias, uma com o nome “Principal” e outra com o
 nome “Serviço”, associando a elas o condomínio criado no item 9.19.3 – Associada à portaria Principal, cadastre as movimentações com os
 seguintes dados:
-* Funcionário com id 1, Visitante com id 1, Tipo ‘E’, Data da
-movimentação 2022-06-01 15:00:00
-* Funcionário com id 1, Visitante com id 2, Tipo ‘E’, Data da
-movimentação 2022-06-01 15:30:00
-* Funcionário com id 2, Visitante com id 1, Tipo ‘S’, Data da
-movimentação 2022-06-01 15:45:00
+* Funcionário com id 1, Visitante com id 1, Tipo ‘E’, Data da movimentação 2022-06-01 15:00:00
+* Funcionário com id 1, Visitante com id 2, Tipo ‘E’, Data da movimentação 2022-06-01 15:30:00
+* Funcionário com id 2, Visitante com id 1, Tipo ‘S’, Data da movimentação 2022-06-01 15:45:00
 
 9.4 – Liste todas as movimentações com base no tipo da movimentação;
 
 9.5 – Crie uma consulta que será montada dinamicamente para pesquisar
 os visitantes cadastrados com base nos seguintes filtros:
-CampoOperador
-nomelike
-cpfequal
-data de cadastrogreaterThanOrEqualTo
+Campo | Operador
+--- | --- 
+nome | like
+cpf | equal
+data de cadastro | greaterThanOrEqualTo
 
 ## MER (Modelo Entidade Relacionamento)
 
